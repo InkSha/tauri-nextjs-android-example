@@ -1,0 +1,1 @@
+# Tauri NextJS Android Example

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@mixin Dark() {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+
+@mixin Light() {
+  @media (prefers-color-scheme: light) {
+    @content;
+  }
+}

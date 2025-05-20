@@ -1,0 +1,121 @@
+{
+  "types": [
+    {
+      "value": "assets",
+      "name": "静态资源"
+    },
+    {
+      "value": "build",
+      "name": "影响构建系统或外部依赖项的更改"
+    },
+    {
+      "value": "chore",
+      "name": "开发相关更改"
+    },
+    {
+      "value": "ci",
+      "name": "对 CI 配置文件和脚本的更改"
+    },
+    {
+      "value": "docs",
+      "name": "仅文档变更"
+    },
+    {
+      "value": "feat",
+      "name": "增加或修改功能特性"
+    },
+    {
+      "value": "fix",
+      "name": "错误修复"
+    },
+    {
+      "value": "perf",
+      "name": "性能优化"
+    },
+    {
+      "value": "refactor",
+      "name": "既不修复问题也不添加功能的代码更改"
+    },
+    {
+      "value": "revert",
+      "name": "回退提交"
+    },
+    {
+      "value": "style",
+      "name": "代码风格变化，如空格，缺失分号等"
+    },
+    {
+      "value": "test",
+      "name": "添加缺失的测试或更正现有测试"
+    }
+  ],
+  "scopes": [
+    {
+      "value": "core",
+      "name": "核心功能"
+    },
+    {
+      "value": "ui",
+      "name": "用户界面"
+    },
+    {
+      "value": "page",
+      "name": "前端页面"
+    },
+    {
+      "value": "utils",
+      "name": "工具"
+    },
+    {
+      "value": "base",
+      "name": "底层"
+    },
+    {
+      "value": "logic",
+      "name": "应用逻辑"
+    },
+    {
+      "value": "api",
+      "name": "接口或网络请求"
+    },
+    {
+      "value": "tauri",
+      "name": "tauri 相关"
+    },
+    {
+      "value": "deps",
+      "name": "依赖管理"
+    },
+    {
+      "value": "styles",
+      "name": "样式/主题"
+    },
+    {
+      "value": "config",
+      "name": "配置相关"
+    },
+    {
+      "value": "docs",
+      "name": "文档"
+    },
+    {
+      "value": "test",
+      "name": "测试"
+    },
+    {
+      "value": "release",
+      "name": "发布流程"
+    }
+  ],
+  "messages": {
+    "type": "选择提交类型:",
+    "scope": "选择影响范围 (可选):",
+    "customScope": "输入自定义范围:",
+    "subject": "简短描述 (不超过 80 字):\n",
+    "body": "详细描述，使用 \"|\" 进行换行 (可选):\n",
+    "footer": "关联的 Issue，例如：#123, #456 (可选):\n",
+    "confirmCommit": "确认提交此说明？"
+  },
+  "allowBreakingChanges": ["feat"],
+  "subjectLimit": 80
+}
